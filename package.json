@@ -1,0 +1,35 @@
+{
+  "name": "thachcaohoangduong",
+  "version": "1.0.0",
+  "description": "Trang web giới thiệu dịch vụ thi công trần thạch cao tại Bà Rịa Vũng Tàu",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server --port=3000 --open=/",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Deploy to Vercel or your preferred hosting service'"
+  },
+  "keywords": [
+    "thạch cao",
+    "trần thạch cao",
+    "bà rịa vũng tàu",
+    "thi công",
+    "xây dựng",
+    "nội thất"
+  ],
+  "author": "Thạch Cao Hoàng Dương",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/thachcaohoangduong.git"
+  },
+  "homepage": "https://thachcaohoangduong.vercel.app",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
